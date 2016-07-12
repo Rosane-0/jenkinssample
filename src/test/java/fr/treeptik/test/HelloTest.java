@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class HelloTest {
 
 	@Test
-	public void testIfOk(){
+	public static void testIfOk(){
 		
 		//error
 //		throw new NullPointerException();
@@ -16,7 +16,7 @@ public class HelloTest {
 //		Assert.fail("Test failure ! ");
 		
 		assertEquals(3, 5);
-		assertFalse(false);;
+		assertFalse(false);
 		
 	}
 	

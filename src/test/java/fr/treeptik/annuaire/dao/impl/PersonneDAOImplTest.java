@@ -13,7 +13,7 @@ import fr.treeptik.annuaire.utils.ContextPersistanceUtils;
 public class PersonneDAOImplTest {
 	
 	@Test
-	public void findByFirstLastNameShoudReturn10(){
+	public static void findByFirstLastNameShoudReturn10(){
 		
 		ContextPersistanceUtils.getEntityManager();
 		

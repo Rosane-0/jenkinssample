@@ -16,17 +16,17 @@ import fr.treeptik.annuaire.model.pojo.Personne;
 public class PersonneServiceTest {
 	
 	@BeforeClass
-	public void shouldDoSomething(){
+	public static void shouldDoSomething(){
 		
 	}
 	
 	@Before
-	public void shoudDoOtherThing(){
+	public static void shoudDoOtherThing(){
 		System.out.println("do the thing !");
 	}
 
 	@Test
-	public void shouldReturn2Personnes(){
+	public static void shouldReturn2Personnes(){
 		
 		PersonneService personneService = new PersonneService();
 		

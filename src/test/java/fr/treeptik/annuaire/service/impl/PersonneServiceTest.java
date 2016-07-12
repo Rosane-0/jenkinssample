@@ -21,12 +21,12 @@ public class PersonneServiceTest {
 	}
 	
 	@Before
-	public static void shoudDoOtherThing(){
+	public void shoudDoOtherThing(){
 		System.out.println("do the thing !");
 	}
 
 	@Test
-	public static void shouldReturn2Personnes(){
+	public void shouldReturn2Personnes(){
 		
 		PersonneService personneService = new PersonneService();
 		
